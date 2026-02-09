@@ -1,0 +1,21 @@
+{
+  "name": "dongzhongcen-blog-api",
+  "version": "1.0.0",
+  "description": "dongzhongcen's Blog API Server with Neon PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blog", "api", "neon", "postgresql"],
+  "author": "dongzhongcen",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
